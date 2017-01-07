@@ -1,0 +1,99 @@
+ul{
+	list-style: none;
+}
+#pricing-table .pricing-table { 
+	height: auto; 
+}
+
+.left {
+	float: left;
+}
+
+#pricing-table .static-table {
+    border: 1px solid #cfcfcf;
+}
+
+#pricing-table .dynamic-table {
+    margin-top: -25px;
+    border: 3px solid #ff6633;
+    border-radius: 5px;
+}
+
+#pricing-table .pricing-desc {
+    line-height: 18px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+#pricing-table .pricing-content {
+    padding: 20px 15px;
+}
+
+#pricing-table .info a{
+
+	border: 1px solid #212121;
+	border-radius: 4px / 3px;
+    background-color: #3a3a3a;
+    text-decoration: none;
+	color: #fff;
+	padding: 10px 0;
+	display: block;
+	text-align: center;
+	font-size: 17px;
+	box-shadow: inset 0 1px 0 rgba(255,255,255,.23);
+}
+
+#pricing-table .new-info a{
+
+	border: 1px solid #c84f27;
+	border-radius: 4px / 3px;
+    background-color: #ff6533;
+    text-decoration: none;
+	color: #fff;
+	padding: 10px 0;
+	display: block;
+	text-align: center;
+	font-size: 17px;
+	box-shadow: inset 0 1px 0 rgba(255,255,255,.23);
+}
+
+.new-info{
+	padding-bottom: 25px;
+}
+
+#pricing-table .static-table .pricing-options, #pricing-table .dynamic-table .pricing-options  {
+    border-top: 1px solid #dadada;
+    padding-bottom: 15px;
+    padding-left: 0;
+}
+
+#pricing-table .dynamic-table .pricing-options li {
+    border-bottom: 1px solid #dadada;
+    color: black;
+    padding: 7px 0 7px 30px;
+}
+
+#pricing-table .pricing-options li {
+    border-bottom: 1px solid #dadada;
+    color: #999999;
+    padding: 7px 0 7px 30px;
+}
+
+#pricing-table .pricing-options li.ok{
+	background: url(images/icons/ok.png) 8px center no-repeat;
+}
+#pricing-table .pricing-options li.x{
+	background: url(images/icons/x.png) 8px center no-repeat;
+}
+
+#pricing-table .pricing-title { background-color: #fbfbfb; border-bottom: 1px solid #cfcfcf; font-family: 'Economica', sans-serif; font-weight: 700; font-size: 18px; text-transform: uppercase; text-align: center; padding: 15px 0; }
+
+#pricing-table .new-pricing-title { background-color: #fbfbfb; border-bottom: 1px solid #cfcfcf; font-family: 'Economica', sans-serif; font-weight: 700; font-size: 18px; text-transform: uppercase; text-align: center; padding: 15px 0; color: #ff6633; }
+
+#pricing-table .amount, #pricing-table .new-amount  { text-align: center; font-family: 'Economica', sans-serif; font-weight: 700; padding-bottom: 5px; }
+#pricing-table .amount .sign, #pricing-table .new-amount .sign { font-size: 24px; display: inline-block; vertical-align: top; }
+#pricing-table .amount .big-price, #pricing-table .new-amount .big-price { font-size: 65px; margin-top: -5px; display: inline-block; padding: 0 5px; }
+#pricing-table .amount .small-price, #pricing-table .new-amount .small-price { font-size: 24px; margin-top: 2px; display: inline-block; vertical-align: top; }
+#pricing-table .amount .rate, #pricing-table .new-amount .rate { display: inline-block; font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-style: italic; color: #9d9d9d; font-weight: normal; margin-left: -10px; margin-left: -20px; vertical-align: top; padding-top: 41px; margin-right: -10px; }
+
+#pricing-table .new-amount { color: #ff6633; padding: 6px 0 23px 0; }
